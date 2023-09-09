@@ -12,3 +12,22 @@
     scroll-behavior: smooth;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+  :root{
+    --bg-color:#081b29;
+    --second-color:#112e42;
+    --main-color:#ededed;
+    --text-color:#00abf0;
+  }
+
+  html{
+    font-size: 62.5%;
+    overflow: hidden;
+
+  }
+  body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+  }
+
