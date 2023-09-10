@@ -94,6 +94,11 @@
     display: flex;
     align-items: center;
     padding: 0 9%;
+    background: url('/images/man-with-blue-lights-visual-effects.jpg') no-repeat;
+    /* background: url('/images/portrait-bearded-middle-age-male-with-crossed-arms-chest-dressed-woolen-suit-tweed-cap.jpg') no-repeat; */
+    background-size: cover;
+    background-position: center;
+  
   }
 
   .home-content{
@@ -202,7 +207,51 @@
     color: var(--main-color);
     overflow: hidden;
     z-index: 1;
+    transition: .5s;
    }
+
+   .home-sci a:hover{
+    color: var(--bg-color);
+   }
+
+   .home-sci a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:0;
+    background: var(--main-color);
+    z-index: -1;
+    transition: .5s;
+
+   }
+   .home-sci a:hover:before{
+    width: 100%;
+   }
+/* 
+   .home-imageHover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 45%;
+    background: transparent;
+    border: 2px red solid;
+    transition: .3s;
+    
+    
+
+   }
+
+   .home-imageHover:hover{
+    background:var(--bg-color);
+    opacity: .8;
+    border-radius: 40px;
+   } */
+
+
+
 
 
 
