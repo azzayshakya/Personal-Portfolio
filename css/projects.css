@@ -47,6 +47,9 @@ body{
     left:60vh;
     top: 100px;
     font-size: 40px;
+
+    box-shadow:5px 5px 10px 1px var(--text-color);
+    border-radius: 20px;
 }
 
 .box1{
@@ -66,6 +69,7 @@ body{
 
 
     box-shadow:0px 0px 20px 2px var(--text-color);
+    border-radius: 10px;
 
 
    
@@ -91,7 +95,8 @@ body{
 
 
     box-shadow:0px 0px 20px 2px var(--text-color);
-   
+    border-radius: 10px;
+
     
 }
 
@@ -112,7 +117,8 @@ body{
     flex-direction: column;
 
     box-shadow:0px 0px 20px 2px var(--text-color);
-    
+    border-radius: 10px;
+
    
     
 }
@@ -153,7 +159,7 @@ body{
 .btn button{
     padding: 8px;
     border-radius: 10px;
-    transition: 0.5s;
+    transition: 0.2s;
     color: var(--text-color);
     background-color:var(--main-color);
   
