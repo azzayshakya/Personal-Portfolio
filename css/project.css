@@ -7,6 +7,15 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
+
+body{
+    background: url(/images/s3.jpg);
+    color: var(--text-color);
+    background-size: cover;
+    background-position: center;
+   
+
+  }
 section{
     border: 5px red solid;
     
