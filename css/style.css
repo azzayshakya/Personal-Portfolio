@@ -702,7 +702,7 @@ span{
 
  
 /* breakpoint */
-
+/* 
 @media(max-width:1200px){
   html{
     font-size:55%;
@@ -751,7 +751,7 @@ span{
       z-index: 1;
     }
 
-    .navbar .active{
+    .navbar.active{
       left: 0;
       transition-delay: 0s;
       
@@ -759,7 +759,7 @@ span{
 
     .navbar .active-nav{
       position: absolute;
-      top: 0;
+      top: 0;     
       left: -100%;
       width: 100%;
       height: 100%;
@@ -776,9 +776,19 @@ span{
       left: 0;
 
 
+
     }
     .navbar a{
       display: block;
       font-size: 2rem;
+      margin: 3rem 0; 
+      transform: translateX(-20rem);
+      transition: .25s ease;
+      transition-delay: 0s;
+
     }
-  }
+    .navbar.active a{
+      transform: translate(0);
+      transition-delay:.25s;
+    }
+  } */

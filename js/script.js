@@ -1,11 +1,11 @@
 //toggle icon navbar
 
 let menuIcon =document.querySelector("#menu-icon");
-let navbar = document.querySelector('active');
+let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick=()=>{
     menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('icon');
+    navbar.classList.toggle('active');
 
 }
 
@@ -35,3 +35,8 @@ window.onscroll=()=>{
     let header=document.querySelector('header');
     header.classList.toggle('sticky',window.scrollY>100);
 }
+
+//script for tpogle when we click then it should close too
+// in video 1:22:00 
+
+//two line code only
