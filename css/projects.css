@@ -18,10 +18,12 @@
 
 body{
      /* overflow: hidden; */
-     background: url(/images/stars\ back.jpg);
+     /* background: url(/images/stars\ back.jpg); */
      color: var(--text-color);
-     background-size: cover;
-     background-position: center;
+     /* background-size: cover;
+     background-position: center; */
+     /* background-color: var(--second-color); */
+     background-color: var(--bg-color);
 
   }
 
@@ -29,7 +31,7 @@ body{
   
   html{
     font-size: 62.5%;  
-    overflow: hidden;
+    /* overflow: hidden; */
 
   }
 
@@ -53,7 +55,7 @@ section{
   }
 
 .projects{
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -84,7 +86,9 @@ section{
    .projects-box .projects-content{
     position: relative;
     padding-left: 2rem;
-    /* border-left: .2rem solid var(--main-color); */
+    height: 400px;
+    margin-top:60px ;
+    
    }
 
    .projects-content .content{
@@ -93,8 +97,40 @@ section{
     border: .2rem solid var(--main-color);
     border-radius: .6rem ;
     margin-bottom: 2rem;
-    overflow: hidden;
+    /* overflow: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
    }
+
+   .project-image img{ 
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+   }
+
+   .content p{
+    font-size: 1.6rem;
+    padding-top: 1rem;    
+    text-align: center;
+   }
+
+   .btn-box {
+   background-color: var(--main-color);
+   padding: 10px 20px;
+   border-radius: 10px;
+   margin-top: 20px;
+    
+  }
+
+  .btn-box a{
+    font-size:1.5rem;
+    font-weight:200;
+  }
+
+   
+
   
   
 

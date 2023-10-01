@@ -325,24 +325,17 @@ span{
 }
 
 .btn-box .btns{
-  text-align: center;
-  
-  
+  text-align: center;  
 }
+
 .btn-box {
   padding-top: 10px;
   
 }
-.ReadMoreBtn{
-  
-  margin-left: 160px;
 
-  
-}
 .btn-box .btns{
   display: inline-block;
   width: 15rem;
-
 }
 
 .btn-box .btns a::before{
