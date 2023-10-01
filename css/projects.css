@@ -8,12 +8,15 @@
     scroll-behavior: smooth;
 }
 
-body{
-    
+:root{
+    --bg-color:#081b29;
+    --second-color:#112e42;
+    --main-color:#00abf0;
+    --text-color:#ededed;
+  }
 
-     width: 100%;
-    
-    
+
+body{
      /* overflow: hidden; */
      background: url(/images/stars\ back.jpg);
      color: var(--text-color);
@@ -22,48 +25,45 @@ body{
 
   }
 
-.partical-js{
-    width: 100%;
-    height: 400vh;
-}
 
+  
+  html{
+    font-size: 62.5%;  
+    overflow: hidden;
 
-
-:root{
-    --bg-color:#081b29;
-    --second-color:#112e42;
-    --main-color:#00abf0;
-    --text-color:#ededed;
   }
-#particles-js h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: transparent;
-    -webkit-text-stroke:.7px var(--main-color);
-   
-    width: 400px;
-    position: absolute;
-    left:60vh;
-    top: 100px;
-    font-size: 40px;
 
-    /* box-shadow:0px 0px 17px 2px var(--text-color);
-    border-radius: 20px; */
 
-    /* box-shadow: var(--main-color) 5px 5px, rgb(157, 208, 228) 10px 10px, rgb(159, 209, 230) 15px 15px, 
-    rgb(177, 218, 235) 20px 20px 2px,
-    rgb(221, 229, 232) 25px 25px 5px; */
+
+h1{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
 }
+
+span{
+    color: var(--main-color);
+  }
+
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;   
+
+  }
 
 .projects{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: auto;
-    padding-bottom: 5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: auto;
+  padding-bottom: 5rem;
+    
+
+   
 }
+
 
 .projects  .projects-row{
     display: flex;
@@ -77,168 +77,32 @@ body{
   
    }
 
+   .projects-column .projects-box{
+    border-left: .2rem solid var(--main-color);
 
-
-   .project-content{
-    border: 1rem solid red;
+   }
+   .projects-box .projects-content{
+    position: relative;
+    padding-left: 2rem;
+    /* border-left: .2rem solid var(--main-color); */
    }
 
-   .content{
-    border: 2rem solid blue;
+   .projects-content .content{
+    position: relative;
+    padding: 1.5rem;
+    border: .2rem solid var(--main-color);
+    border-radius: .6rem ;
+    margin-bottom: 2rem;
+    overflow: hidden;
    }
-
-
-
-
-
-
-/* .box{
-    flex-wrap: wrap;
-    
-    
-}
-.box1{
-    
-   
-    position: absolute;
-    top: 270px;
-    left: 6%;
-    height: 400px;
-    width: 25%;
-    background: black;
-    
-    
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-
-   box-shadow: 15px 15px 20px 7px var(--second-color);
-    border-radius: 10px;
-
-
-   
-    
-}
-
-
-
-.box2{
-   
-   
-    position: absolute;
-    top: 270px;
-    left: 37%;
-    height: 400px;
-    width: 25%;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-
-    box-shadow: 15px 15px 20px 7px var(--second-color);
-    border-radius: 10px;
-
-    
-}
-
-
-.box3{
-    
-    
-    position: absolute;
-    top: 270px;
-    left: 68%;
-    height: 400px;
-    width: 25%;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-    box-shadow:0px 0px 20px 2px var(--bg-color);
-    border-radius: 10px;
-
-   
-    
-}
-
-.boxR21{
-    position: absolute;
-    top: 800px;
-    left: 6%;
-    height: 400px;
-    width: 25%;
-    background: black;
-    
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-
-    box-shadow:0px 0px 20px 2px var(--bg-color);
-    border-radius: 10px;
-
-
-}
-
-.image{
   
-    width: 90%;
-    height: 50%;
+  
 
-    
 
-}
 
-.image img{
-    width: 100%;
-    height:100%;
 
-}
+ 
 
-.text{
-   
-    height: 30%;
-    width: 90%;
-    
-    text-align: center;
-    
 
-}
-.text p{
-    margin:10px;
-}
 
-.btn{
-   
-    margin: 10px;
-    
-    
-}
-.btn button{
-    padding: 8px;
-    border-radius: 10px;
-    transition: 0.2s;
-    color: var(--text-color);
-    background-color:var(--main-color);
-    
-   
-    
-}
 
-.btn button:hover{
-    box-shadow:0px 0px 20px 2px var(--text-color);
-    
-} */

@@ -331,10 +331,14 @@ span{
 }
 .btn-box {
   padding-top: 10px;
+  
+}
+.ReadMoreBtn{
+  
   margin-left: 160px;
 
+  
 }
-
 .btn-box .btns{
   display: inline-block;
   width: 15rem;
