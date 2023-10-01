@@ -51,12 +51,48 @@ body{
     /* box-shadow:0px 0px 17px 2px var(--text-color);
     border-radius: 20px; */
 
-    box-shadow: var(--main-color) 5px 5px, rgb(157, 208, 228) 10px 10px, rgb(159, 209, 230) 15px 15px, 
+    /* box-shadow: var(--main-color) 5px 5px, rgb(157, 208, 228) 10px 10px, rgb(159, 209, 230) 15px 15px, 
     rgb(177, 218, 235) 20px 20px 2px,
-    rgb(221, 229, 232) 25px 25px 5px;
+    rgb(221, 229, 232) 25px 25px 5px; */
 }
 
-.box{
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+
+.projects  .projects-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+  
+   }
+
+   .projects  .projects-column{
+    flex: 1 1 40rem;
+  
+   }
+
+
+
+   .project-content{
+    border: 1rem solid red;
+   }
+
+   .content{
+    border: 2rem solid blue;
+   }
+
+
+
+
+
+
+/* .box{
     flex-wrap: wrap;
     
     
@@ -205,4 +241,4 @@ body{
 .btn button:hover{
     box-shadow:0px 0px 20px 2px var(--text-color);
     
-}
+} */
