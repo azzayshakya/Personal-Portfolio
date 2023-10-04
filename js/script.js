@@ -1,13 +1,17 @@
 //toggle icon navbar
 
-let menuIcon =document.querySelector("#menu-icon");
-let navbar = document.querySelector('.navbar');
-
-menuIcon.onclick=()=>{
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
-
+let mobile_nav =document.querySelector(".mobile-navbar-btn");
+let mobile_header = document.querySelector('.header');
+const toggleNavbar =()=>{
+    mobile_header.classList.toggle("active");
 }
+mobile_nav.addEventListener('click',()=>toggleNavbar())
+
+
+
+
+
+
 
 // scroll section
 
