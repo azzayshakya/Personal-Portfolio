@@ -91,6 +91,7 @@
     cursor: pointer;
     display:none ;
     background-color: transparent;
+    position: absolute;
    
 
   }
