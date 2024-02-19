@@ -7,6 +7,13 @@ import zobs from '../images/Zobs.png'
 import portfolio from '../images/portfolio.png'
 import loginpage from '../images/loginpage.png'
 import gym from '../images/gym ss.png'
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
+
+
 
 
 
@@ -26,7 +33,7 @@ const Home = () => {
             
         <a class="active" href="#home">Home</a>
         <a href="#about">About</a>
-        <a ><Link to="/Projects">Project</Link></a>
+        <a href="#Projects">projects</a>
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
@@ -69,10 +76,10 @@ const Home = () => {
             </div>
         </div>
         <div class="home-sci">
-            <a href="https://www.instagram.com/a_4_ajay_shakya_/" target="_blank"><i class='bx bxl-instagram' ></i></a>
-            <a href="https://www.linkedin.com/in/ajay-shakya-43065b271/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://twitter.com/a_4_ajayshakya"><i class='bx bxl-twitter'target="_blank" ></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100023803478555" target="_blank"><i class='bx bxl-facebook-square' ></i></a>
+            <a href="https://www.instagram.com/a_4_ajay_shakya_/" target="_blank"><FaInstagram/></a>
+            <a href="https://www.linkedin.com/in/ajay-shakya-43065b271/" target="_blank"><FaGithub/></a>
+            <a href="https://twitter.com/a_4_ajayshakya"  target="_blank"><FaLinkedin/></a>
+            <a href="https://www.facebook.com/profile.php?id=100023803478555" target="_blank"><FaFacebookF/></a>
         </div>  
 
         <div class="home-imageHover">
@@ -105,7 +112,7 @@ const Home = () => {
                     </p>
                     
             </div>
-            <div class="btn-box btns ">
+            <div class="btn-box btns readmorebtn ">
                 <a href="#"  class="btn">Read more</a>
             </div>
 
@@ -243,7 +250,7 @@ const Home = () => {
 
     </section>
 
-    <div class="Projects" id="Prjects">
+    <div class="Projects" id="Projects">
     <h2 class="heading">My<span>Prjocts</span></h2>
         <div className="projectsrow">
             <div className="projectCard">

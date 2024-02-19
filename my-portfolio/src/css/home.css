@@ -473,8 +473,15 @@ font-size: 1.6rem;
 margin: 2rem 0 3rem;
 
 }
+.readmorebtn {
+/* border: 2px red solid; */
+padding-left: 80px;
 
+
+}
 .btn-box .btns{
+
+left: 20px;
 text-align: center;  
 }
 
@@ -705,6 +712,10 @@ width :75%;
 
 
 #Projects {
+ padding: 80px 0px;
+  /* border: 2px red solid; */
+  background-color: var(--bg-color);
+
 
 
 }
@@ -719,6 +730,8 @@ width :75%;
 
 .projectCard {
   margin-top: 50px;
+  box-shadow:-8px -8px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.2);
+
   /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
   /* border: 2px red solid; */
   
@@ -766,6 +779,9 @@ width :75%;
 
 
 .contact{
+
+  background:var(--second-color);
+
 min-height: auto;
 padding-bottom: 7rem;
 }
@@ -852,7 +868,7 @@ justify-content: space-between;
 align-items: center;
 flex-wrap: wrap;
 padding: 2rem 9%;
-background: var(--second-color);
+background-color: var(--bg-color);
 
 }
 
