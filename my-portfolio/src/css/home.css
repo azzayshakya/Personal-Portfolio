@@ -602,7 +602,7 @@ padding-top: .5rem;
 .skills{
 min-height: auto;   
 padding-bottom: 7rem;
-background:var(--second-color);
+background:var(--bg-color);
 
 /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 
@@ -708,13 +708,71 @@ width :75%;
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span{
 width :75%;
 }
+
+.skillRow{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+
+  /* border: 2px red solid;  */
+  
+
+
+
+}
+.skillimg img{
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px ;
+  
+
+  width: 200px;
+  height: 200px;
+
+}
+.skillCard{
+  margin-top: 50px;
+  
+
+  box-shadow:-8px -8px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.2);
+
+  
+    width: 200px; 
+    height: 277px;
+
+    /* border: 2px red solid; */
+
+}
+.skillCard .title{
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+.skillinfo{
+  /* border: 2px red solid; */
+  background: rgba( 255, 255, 255, 0.4);
+  backdrop-filter:blur(10px) ;
+  width: 100%;
+  height: 70px;
+
+}
+.skillTitle{
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+
 /* nljsldjikkkkkkkkkkk */
 
 
 #Projects {
  padding: 80px 0px;
   /* border: 2px red solid; */
-  background-color: var(--bg-color);
+  background-color: var(--second-color);
 
 
 
@@ -769,7 +827,7 @@ width :75%;
   text-align: center;
 }
 .projectCard .techs{
-  color: black;
+  color: white;
   font-size: 15px;
   text-align: center;
   margin-top: 5px;

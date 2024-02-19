@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import foodiiss from '../images/Foodiii.png'
 import zobs from '../images/Zobs.png'
 
+import about from '../images/about.jpg';
+
 import portfolio from '../images/portfolio.png'
 import loginpage from '../images/loginpage.png'
 import gym from '../images/gym ss.png'
@@ -11,6 +13,21 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+
+
+
+import reactjs from '../images/reactjs.jpg'
+import expressjs from '../images/expressjs.png'
+import nodejs from '../images/nodejs.jpg'
+import MongoDB from '../images/MongoDB.png'
+
+import html from '../images/html.png'
+import css from '../images/css.jpg'
+import js from '../images/js.png'
+import java from '../images/java,webp.webp'
+import git from '../images/git.webp'
+import Cplusplus from '../images/c++.webp'
+
 
 
 
@@ -33,9 +50,9 @@ const Home = () => {
             
         <a class="active" href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#skills">Skills</a>
         <a href="#Projects">projects</a>
         <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
             
        
@@ -76,10 +93,10 @@ const Home = () => {
             </div>
         </div>
         <div class="home-sci">
-            <a href="https://www.instagram.com/a_4_ajay_shakya_/" target="_blank"><FaInstagram/></a>
-            <a href="https://www.linkedin.com/in/ajay-shakya-43065b271/" target="_blank"><FaGithub/></a>
-            <a href="https://twitter.com/a_4_ajayshakya"  target="_blank"><FaLinkedin/></a>
-            <a href="https://www.facebook.com/profile.php?id=100023803478555" target="_blank"><FaFacebookF/></a>
+            <a href="https://www.instagram.com/azzayshakya/" target="_blank"><FaInstagram/></a>
+            <a href="https://www.github.com/azzayshakya/" target="_blank"><FaGithub/></a>
+            <a href="https://www.linkedin.com/in/azzayshakya/"  target="_blank"><FaLinkedin/></a>
+            <a href="https://www.facebook.com/azzayshakya/" target="_blank"><FaFacebookF/></a>
         </div>  
 
         <div class="home-imageHover">
@@ -94,27 +111,27 @@ const Home = () => {
         <h2 class="heading"> About <span>Me</span></h2>
 
         <div class="about-img">
-            <img src="./images/ABOUT BEARD.jpg" alt=""/>
+            <img src={about} alt=""/>
             <span class="circle-spin"></span>
         </div>
             <div class="about-content">
-                <h3>FULL STACK WEB DEVELOPER</h3>
+                <h3>FULL STACK WEB DEVELOPER  (MERN) </h3>
                 <p></p>
-                <p>Hi, my name is Ajay Kr Shakya and I'm from Buduan, Uttar Pradesh. <br />
+                <p>Hello, I'm Ajay Kr Shakya, hailing from Buduan, Uttar Pradesh. <br />
 
 
-                    As a Full-Stack Web developer, I enjoy tackling new challenges and continuously expanding my skillset. <br/>
+                I specialize as a Full-Stack Web developer and find joy in confronting fresh challenges while consistently enhancing my expertise. <br/>
                     
-                    I am proficient in Development, as well as have knowledge in programming languages such as Html, Css, Javascript, Java. <br />
+                My proficiency lies in Development, along with a grasp of programming languages like Html, Css, Javascript, and Java. <br />
                     
-                    I have a passion for working with these languages and i am interested in exploring new one's too;
+                I possess a fervor for working with these languages and hold a keen interest in delving into new ones as well.
                     
-                    </p>
+                </p>
                     
             </div>
-            <div class="btn-box btns readmorebtn ">
+            {/* <div class="btn-box btns readmorebtn ">
                 <a href="#"  class="btn">Read more</a>
-            </div>
+            </div> */}
 
         
     </section> 
@@ -123,80 +140,18 @@ const Home = () => {
     
 
 
-    <section class="education" id="education">
-        <h2 class="heading">MY <span>Journy</span></h2>
-        
-        <div class="education-row">
-            <div class="education-column">
-                <h3 class="title">Education</h3>
-                 <div class="education-box">
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2016-2018</div>
-                            <h3>10th - S.D.S.V. mandir(Budaun)</h3>
-                            <p>I have completed my 10th from Shiv devi saraswati vidhya mandir (Budaun,UP)</p>
-                        </div>
-                    </div>
 
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2018-2020</div>
-                            <h3>12th - S.R.S.V. mandir(Budaun)</h3>
-                            <p>I have completed my 10th from Shree ram saraswati vidhya mandir (Budaun,UP)</p>
-                        </div>
-                    </div>
-
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2020-2024</div>
-                            <h3>B.Tech -BIT(meerut)</h3>
-                            <p>I have completed my graduation from Bharat Institute of Technology (Meerut)</p>
-                        </div>
-                    </div>
-                 </div>
-            </div>
-
-
-            <div class="education-column">
-                <h3 class="title">Experience</h3>
-                 <div class="education-box">
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2023</div>
-                            <h3>Web-Dovelopment(Interpa)</h3>
-                            <p>I have completed the intership of Web-Dovelopment from Interpa.</p>
-                        </div>
-                    </div>
-
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2024</div>
-                            <h3>JAVA (Interpa) </h3>
-                            <p>I have completed the inteship of java. </p>
-                        </div>
-                    </div>
-
-                    {/* <!-- <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2017 2029</div>
-                            <h3>dkdl</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis suscipit quaerat itaque quo, molestiae rerum facilis labore impedit vel harum?</p>
-                        </div>
-                    </div> --> */}
-                 </div>
-            </div>
-        </div>
-
-    </section>
 
 
 
  
 
     <section class="skills" id="skills">
-        <h2 class="heading">My <span>skills</span></h2>
+        <h2 class="heading">My <span>Skills</span></h2>
 
-        <div class="skills-row">
+
+
+        {/* <div class="skills-row">
             <div class="skills-column">
                 <h3 class="title">Coding Skills</h3>
 
@@ -246,12 +201,159 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+        </div> */}
+
+         <div className="skillRow">
+            <div className="skillCard">
+                <div className="skillimg">
+                    <img src={reactjs} alt="" />
+                </div>
+                <div className="skillinfo">
+                    <p className="skillTitle">React JS</p>
+                    {/* <p className="techs">
+                        Rect.js , Express.js , Node.js , MongoDB ,NPM , multer  
+                    </p> */}
+                </div>
+
+
+            </div>
+            <div className="skillCard">
+                <div className="skillimg">
+                    <img src={expressjs} alt="" />
+                </div>
+                <div className="skillinfo">
+                    <p className="skillTitle">Express JS</p>
+                    {/* <p className="techs">
+                        Rect.js , Express.js , Node.js , MongoDB ,NPM , multer  
+                    </p> */}
+                </div>
+
+
+            </div>
+            <div className="skillCard">
+                <div className="skillimg">
+                    <img src={nodejs} alt="" />
+                </div>
+                <div className="skillinfo">
+                    <p className="skillTitle">Node JS</p>
+                    {/* <p className="techs">
+                        Rect.js , Express.js , Node.js , MongoDB ,NPM , multer  
+                    </p> */}
+                </div>
+
+
+            </div>
+            <div className="skillCard">
+                <div className="skillimg">
+                    <img src={MongoDB} alt="" />
+                </div>
+                <div className="skillinfo">
+                    <p className="skillTitle"> MongoDB</p>
+                    {/* <p className="techs">
+                        Rect.js , Express.js , Node.js , MongoDB ,NPM , multer  
+                    </p> */}
+                </div>
+
+
+            </div>
+            
+
         </div>
+        <div className="skillRow">
+            <div className="skillCard">
+                <div className="skillimg">
+                    <img src={html} alt="" />
+                </div>
+                <div className="skillinfo">
+                    <p className="skillTitle">HTML</p>
+                    {/* <p className="techs">
+                        Rect.js , Express.js , Node.js , MongoDB ,NPM , multer  
+                    </p> */}
+                </div>
+
+
+            </div>
+            <div className="skillCard">
+                <div className="skillimg">
+                    <img src={css} alt="" />
+                </div>
+                <div className="skillinfo">
+                    <p className="skillTitle">CSS</p>
+                    {/* <p className="techs">
+                        Rect.js , Express.js , Node.js , MongoDB ,NPM , multer  
+                    </p> */}
+                </div>
+
+
+            </div>
+            <div className="skillCard">
+                <div className="skillimg">
+                    <img src={js} alt="" />
+                </div>
+                <div className="skillinfo">
+                    <p className="skillTitle">JS</p>
+                    {/* <p className="techs">
+                        Rect.js , Express.js , Node.js , MongoDB ,NPM , multer  
+                    </p> */}
+                </div>
+
+
+            </div>
+            <div className="skillCard">
+                <div className="skillimg">
+                    <img src={java} alt="" />
+                </div>
+                <div className="skillinfo">
+                    <p className="skillTitle">JAVA</p>
+                    {/* <p className="techs">
+                        Rect.js , Express.js , Node.js , MongoDB ,NPM , multer  
+                    </p> */}
+                </div>
+
+
+            </div>
+            
+
+        </div>
+        <div className="skillRow">
+            <div className="skillCard">
+                <div className="skillimg">
+                    <img src={Cplusplus} alt="" />
+                </div>
+                <div className="skillinfo">
+                    <p className="skillTitle">C++</p>
+                    {/* <p className="techs">
+                        Rect.js , Express.js , Node.js , MongoDB ,NPM , multer  
+                    </p> */}
+                </div>
+
+
+            </div>
+            <div className="skillCard">
+                <div className="skillimg">
+                    <img src={git} alt="" />
+                </div>
+                <div className="skillinfo">
+                    <p className="skillTitle">GIT</p>
+                    {/* <p className="techs">
+                        Rect.js , Express.js , Node.js , MongoDB ,NPM , multer  
+                    </p> */}
+                </div>
+
+
+            </div>
+            
+            
+
+        </div>
+
+
+
 
     </section>
 
     <div class="Projects" id="Projects">
-    <h2 class="heading">My<span>Prjocts</span></h2>
+    <h2 class="heading">My <span>Projects</span></h2>
         <div className="projectsrow">
             <div className="projectCard">
                 <div className="projectimg">
@@ -300,9 +402,9 @@ const Home = () => {
                     <img src={gym} alt="" />
                 </div>
                 <div className="projectinfo">
-                    <p className="title">Foodiii (A cloud kitchen)</p>
+                    <p className="title">Gym login page</p>
                     <p className="techs">
-                        Rect.js , Express.js , Node.js , MongoDB ,NPM  
+                    Html ,Css ,Js  
                     </p>
                 </div>
 
@@ -313,9 +415,9 @@ const Home = () => {
                     <img src={loginpage } alt="" />
                 </div>
                 <div className="projectinfo">
-                    <p className="title">Foodiii (A cloud kitchen)</p>
+                    <p className="title">Login page</p>
                     <p className="techs">
-                        Rect.js , Express.js , Node.js , MongoDB ,NPM  
+                        Html ,Css ,Js 
                     </p>
                 </div>
 
@@ -326,6 +428,79 @@ const Home = () => {
         </div>
 
     </div>
+
+    <section class="education" id="education">
+        <h2 class="heading">MY <span>Journy</span></h2>
+        
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+                 <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2016-2018</div>
+                            <h3>10th - S.D.S.V. mandir(Budaun)</h3>
+                            <p>I have completed my 10th from Shiv devi saraswati vidhya mandir (Budaun,UP)</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2018-2020</div>
+                            <h3>12th - S.R.S.V. mandir(Budaun)</h3>
+                            <p>I have completed my 10th from Shree ram saraswati vidhya mandir (Budaun,UP)</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2020-2024</div>
+                            <h3>B.Tech -BIT(meerut)</h3>
+                            <p>I have completed my graduation from Bharat Institute of Technology (Meerut)</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+
+
+            <div class="education-column">
+                <h3 class="title">Experience</h3>
+                 <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2024</div>
+                            <h3>MERN stack </h3>
+                            <p>I have completed the full stack web development.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2024</div>
+                            <h3>DSA (java)</h3>
+                            <p>I have solved the many dsa questions in java.</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2024</div>
+                            <h3>JAVA - C++ </h3>
+                            <p>Currently , I have the knowledge of java and c++ </p>
+                        </div>
+                    </div>
+
+                    {/* <!-- <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2017 2029</div>
+                            <h3>dkdl</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis suscipit quaerat itaque quo, molestiae rerum facilis labore impedit vel harum?</p>
+                        </div>
+                    </div> --> */}
+                 </div>
+            </div>
+        </div>
+
+    </section>
 
         
 
@@ -375,9 +550,9 @@ const Home = () => {
             <p>Copyright &copy; 2023- All rights reserved || Designed By: Ajay Kr Shakya</p>
         </div>
 
-        <div class="footer-icon">
+        {/* <div class="footer-icon">
             <a href="#"> <i class='bx bx-up-arrow-alt'></i></a>
-        </div>
+        </div> */}
 
     </footer>
         
