@@ -116,7 +116,7 @@ body{
 /* 1 em =16px */
 
 
-@media(max-width:0px){
+@media(max-width:400px){
 .mobile-navbar-btn{
   display: block;
 
@@ -241,19 +241,18 @@ border: 2px green  solid;
   margin: 2rem 0 4rem;
  }
 
+
  .fullstack{
-  /* border-right: 2px var(--main-color) solid; */
-  width: 100%;
-  animation: type 2s infinite steps(1000);
+  border-right: 2px var(--main-color) solid;
+  /* width: 100%; */
+  /* animation: type 2s infinite steps(1000); */
   white-space: nowrap;
   overflow: hidden;
   animation-direction: alternate;
-
-  
  }
 
  .java{
-  /* border-right: 2px var(--main-color) solid; */
+  border-right: 2px var(--main-color) solid;
   width: 40%;
   animation: type2 1s infinite steps(1000);
   white-space: nowrap;
@@ -263,7 +262,7 @@ border: 2px green  solid;
 
  }
 
- /* @keyframes type2 {
+ @keyframes type2 {
   from{
     width: 0;
   }
@@ -276,7 +275,65 @@ border: 2px green  solid;
   from{
     width: 0;
   }
- } */
+ }
+ @media(max-width:503px){
+  .home-content .text-animate h3{
+    font-size:30px;
+    /* font-weight: 100; */
+    /* border: 2px red solid; */
+
+  }
+ }
+
+ @media(max-width:470px){
+  .home-content .text-animate h3{
+    font-size:25px;
+    /* font-weight: 100; */
+    /* border: 2px red solid; */
+
+  }
+ }
+ @media(max-width:388px){
+  .home-content .text-animate h3{
+    font-size:20px;
+    height: 40px;
+    /* font-weight: 100; */
+    /* border: 2px red solid; */
+
+  }
+ }
+ @media(max-width:388px){
+  .home-content .text-animate h3{
+    font-size:20px;
+    height: 40px;
+    /* font-weight: 100; */
+    /* border: 2px red solid; */
+    width: 86%;
+  }
+ }
+ @media(max-width:388px){
+  .home-content .text-animate h3{
+    font-size:20px;
+    height: 40px;
+    /* font-weight: 100; */
+    /* border: 2px red solid; */
+    width: 86%;
+  }
+ }
+
+ @media(max-width:332px){
+  .home-content .text-animate{
+    /* border: 2px green solid; */
+    width: 80%;
+  }
+  .home-content .text-animate h3{
+    font-size:16px;
+    height: 40px;
+    /* font-weight: 100; */
+    /* border: 2px red solid; */
+    width: 80%;
+  }
+ }
 
  .btn-box{
   position: relative;  

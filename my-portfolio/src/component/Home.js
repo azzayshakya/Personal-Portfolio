@@ -73,7 +73,7 @@ const Home = () => {
     <section class="home"  id="home">
         <div class="home-content">
             <h1>Hi i'm <span>Ajay Kr. Shakya</span></h1>
-            <div class="text-animate skilltext">
+            <div class="text-animate skilltext aboutajay">
                 <h3 class="fullstack">FULL STACK WEB DEVELOPER</h3>
             </div>
             <div class="text-animate ">
