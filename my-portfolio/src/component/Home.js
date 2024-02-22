@@ -60,10 +60,10 @@ const Home = () => {
 
         {/* <!-- mobile-navbar-btn --> */}
 
-        <nav class="mobile-navbar-btn">
+        {/* <nav class="mobile-navbar-btn">
             <box-icon name='menu' class="mobile-nav-icon" ></box-icon>
             <box-icon type='solid' name='caret-up-square'  class="mobile-nav-icon"></box-icon>
-        </nav>
+        </nav> */}
     </header>
 
     
@@ -72,7 +72,7 @@ const Home = () => {
 
     <section class="home"  id="home">
         <div class="home-content">
-            <h1>Hi i'm <span>Ajay shakya</span></h1>
+            <h1>Hi i'm <span>Ajay Kr. Shakya</span></h1>
             <div class="text-animate skilltext">
                 <h3 class="fullstack">FULL STACK WEB DEVELOPER</h3>
             </div>

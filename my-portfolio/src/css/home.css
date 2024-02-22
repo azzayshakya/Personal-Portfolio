@@ -116,10 +116,10 @@ body{
 /* 1 em =16px */
 
 
-@media(max-width:980px){
+@media(max-width:0px){
 .mobile-navbar-btn{
   display: block;
-  /* background-color: white; */
+
   z-index: 99;
   border: 3px solid var(--main-color);
   border-radius: 10px;
@@ -134,7 +134,7 @@ body{
 }
 
 .navbar{
-  /* display: none; */
+
   width: 30%;
 
 
@@ -143,7 +143,7 @@ body{
   top: 0;
   left: 0;
 
-  /* color: white; */
+
 
 
   display: flex;
@@ -195,7 +195,7 @@ body{
 
 
 
-}
+} 
 
 
 section{
@@ -210,6 +210,8 @@ section{
   padding: 0 9%;
   background: url("../images//man-with-blue-lights-visual-effects.jpg") no-repeat;
   background-size: cover;
+border: 2px green  solid;
+
   background-position: center;
 
 }
@@ -240,7 +242,7 @@ section{
  }
 
  .fullstack{
-  border-right: 2px var(--main-color) solid;
+  /* border-right: 2px var(--main-color) solid; */
   width: 100%;
   animation: type 2s infinite steps(1000);
   white-space: nowrap;
@@ -251,7 +253,7 @@ section{
  }
 
  .java{
-  border-right: 2px var(--main-color) solid;
+  /* border-right: 2px var(--main-color) solid; */
   width: 40%;
   animation: type2 1s infinite steps(1000);
   white-space: nowrap;
@@ -261,7 +263,7 @@ section{
 
  }
 
- @keyframes type2 {
+ /* @keyframes type2 {
   from{
     width: 0;
   }
@@ -274,7 +276,7 @@ section{
   from{
     width: 0;
   }
- }
+ } */
 
  .btn-box{
   position: relative;  
@@ -345,7 +347,6 @@ section{
    display: flex;
   justify-content: space-between; 
 
-
  }
 
  .home-sci a{
@@ -406,6 +407,8 @@ section{
  } */
 
 .about{
+/* border: 2px green  solid; */
+
 display: flex;
 justify-content: center;
 align-items: center;
@@ -507,6 +510,7 @@ color: var(--bg-color);
 
 
 .education{
+/* border: 2px red solid; */
 display: flex;
 justify-content: center;
 align-items: center;
@@ -599,16 +603,18 @@ padding-top: .5rem;
 
 /*     vhggggggggg */
 
-.skills{
+/* .skills{
 min-height: auto;   
 padding-bottom: 7rem;
 background:var(--bg-color);
 
+} */
+
 /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 
 
-}
-.skills .skills-row{
+/* } */
+/* .skills .skills-row{
 display: flex;
 flex-wrap: wrap;
 gap: 5rem;
@@ -707,12 +713,14 @@ width :75%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span{
 width :75%;
-}
+} */
 
 .skillRow{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+
   
 
   /* border: 2px red solid;  */
@@ -739,11 +747,14 @@ width :75%;
   
     width: 200px; 
     height: 277px;
+    /* flex-grow:1; */
+/* flex-basis: 200; */
 
     /* border: 2px red solid; */
 
 }
 .skillCard .title{
+
   color: black;
   font-weight: 500;
   font-size: 20px;
@@ -751,9 +762,11 @@ width :75%;
 }
 .skillinfo{
   /* border: 2px red solid; */
+
+  /* border: 2px red solid; */
   background: rgba( 255, 255, 255, 0.4);
   backdrop-filter:blur(10px) ;
-  width: 100%;
+  max-width: 100%;
   height: 70px;
 
 }
@@ -782,6 +795,8 @@ width :75%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
+
   
   
 }
