@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {} from '../css/home.css'
 import { Link } from "react-router-dom";
 import foodiiss from '../images/Foodiii.png'
@@ -28,6 +28,10 @@ import java from '../images/java,webp.webp'
 import git from '../images/git.webp'
 import Cplusplus from '../images/c++.webp'
 
+import { ImCross } from "react-icons/im"; 
+import { TiThMenu } from "react-icons/ti";
+
+
 
 
 
@@ -35,6 +39,11 @@ import Cplusplus from '../images/c++.webp'
 
 
 const Home = () => {
+
+    const [toggle,settoggle]=useState(false);
+    const hadletoggle =()=>{
+        settoggle(!toggle);
+    }
     return <div>
 
     
@@ -60,11 +69,52 @@ const Home = () => {
 
         {/* <!-- mobile-navbar-btn --> */}
 
-        {/* <nav class="mobile-navbar-btn">
-            <box-icon name='menu' class="mobile-nav-icon" ></box-icon>
-            <box-icon type='solid' name='caret-up-square'  class="mobile-nav-icon"></box-icon>
+        {/* <nav class="mobile-navbar-btn" onClick={hadletoggle}>
+            <TiThMenu name="menu-button"/>
+            <ImCross name="cross-button"/>
         </nav> */}
-    </header>
+
+{ toggle && (
+ 
+ <div className=" navbar togglenavbar">
+ 
+ <a className="toggleactive" href="#home">Home</a>
+ <a href="#about">About</a>
+ <a href="#skills">Skills</a>
+ <a href="#Projects">projects</a>
+ <a href="#education">Education</a>
+ <a href="#contact">Contact</a>
+ 
+ 
+ </div>
+ 
+ 
+ )}
+
+       
+
+
+        
+
+
+            <div className="togglenavbarbutton">
+            <button onClick={hadletoggle}>
+                {
+                    toggle ? <ImCross/> :<TiThMenu/>
+                }
+
+
+            </button>
+        </div>
+        
+
+        
+
+        
+   
+
+
+</header>
 
     
 
@@ -260,12 +310,13 @@ const Home = () => {
 
         </div>
         <div className="skillRow">
-            <div className="skillCard">
+
+        <div className="skillCard">
                 <div className="skillimg">
-                    <img src={html} alt="" />
+                    <img src={git} alt="" />
                 </div>
                 <div className="skillinfo">
-                    <p className="skillTitle">HTML</p>
+                    <p className="skillTitle">GIT</p>
                     {/* <p className="techs">
                         Rect.js , Express.js , Node.js , MongoDB ,NPM , multer  
                     </p> */}
@@ -273,6 +324,7 @@ const Home = () => {
 
 
             </div>
+            
             <div className="skillCard">
                 <div className="skillimg">
                     <img src={css} alt="" />
@@ -331,10 +383,10 @@ const Home = () => {
             </div>
             <div className="skillCard">
                 <div className="skillimg">
-                    <img src={git} alt="" />
+                    <img src={html} alt="" />
                 </div>
                 <div className="skillinfo">
-                    <p className="skillTitle">GIT</p>
+                    <p className="skillTitle">HTML</p>
                     {/* <p className="techs">
                         Rect.js , Express.js , Node.js , MongoDB ,NPM , multer  
                     </p> */}
@@ -342,6 +394,7 @@ const Home = () => {
 
 
             </div>
+            
             
             
 

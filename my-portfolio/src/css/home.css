@@ -110,88 +110,67 @@ body{
 .mobile-nav-icon[name="caret-up-square"]{
   display: none;
 }
+.togglenavbarbutton{
+  display: none;
 
+}
 /* responsive navbar */
 
 /* 1 em =16px */
 
 
-@media(max-width:400px){
-.mobile-navbar-btn{
-  display: block;
+@media(max-width:680px){
+  .header{
+    background-color: rgba( 255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    background-color: #00abf0;
+  }
 
-  z-index: 99;
-  border: 3px solid var(--main-color);
-  border-radius: 10px;
-  background-color: #00abf0;
- 
+  .navbar{
+    display: none;
+  }
+  .togglenavbarbutton{
+    display: block;
 
+  }
+
+  .togglenavbarbutton button{
+    background-color: transparent;
+    font-size: 2rem;
+    display: block;
+    
+  }
+  .togglenavbar{
+    border-end-end-radius: 20px;
+    
+    padding-bottom: 30px;
+    padding-right: 20px;
   
-}
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 72.7px;
+    left: 0px;
+    gap: 20px 0px;
 
-.header{
-  position: relative;
-}
-
-.navbar{
-
-  width: 30%;
-
-
-  background-color:var(--bg-color);
-  position: absolute;
-  top: 0;
-  left: 0;
-
-
-
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  transform: translateX(250%);
-  transition: all 0.5s linear;
-
-
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  border-bottom-right-radius: 80px;
-
-
-}
-
-  
-
+    background-color: rgba( 255, 255, 255, 0.4);
+    backdrop-filter: blur(3px);
+    background-color: #00abf0;
   
 
 
-.navbar a {
-  margin:  30px 0px;
-  font-size: 20px;
-}
-
-.active .navbar{
-  transform: translateX(0);
-  opacity: 1;
-  visibility: visible;
-  pointer-events:auto;
-}
-
-.active .mobile-navbar-btn .mobile-nav-icon[name="caret-up-square"]{
-  display: block;
-
+  }
+  .togglenavbar .toggleactive{
+    color: var(--bg-color);
+  }
+  .togglenavbar a{
+    
 
     
-} 
-.active .mobile-navbar-btn .mobile-nav-icon[name="menu"]{
-  display: none;
+    font-size: 2rem;
+   
 
-
-    
-} 
+  }
 
 
 
@@ -210,7 +189,7 @@ section{
   padding: 0 9%;
   background: url("../images//man-with-blue-lights-visual-effects.jpg") no-repeat;
   background-size: cover;
-border: 2px green  solid;
+/* border: 2px green  solid; */
 
   background-position: center;
 
@@ -245,7 +224,7 @@ border: 2px green  solid;
  .fullstack{
   border-right: 2px var(--main-color) solid;
   /* width: 100%; */
-  /* animation: type 2s infinite steps(1000); */
+  animation: type 2s infinite steps(1000);
   white-space: nowrap;
   overflow: hidden;
   animation-direction: alternate;
@@ -334,7 +313,7 @@ border: 2px green  solid;
     width: 80%;
   }
  }
-
+ 
  .btn-box{
   position: relative;  
   display: flex;
