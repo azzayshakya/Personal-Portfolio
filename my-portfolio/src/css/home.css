@@ -51,7 +51,6 @@ body{
      justify-content: space-between;
      align-items: center;
      background-color: transparent;
-     
      z-index: 100;
      transition: .3s;
 
@@ -92,18 +91,11 @@ body{
   display:none ;
   background-color: transparent;
   position: absolute;
- 
-
 }
 .mobile-nav-icon{
   color: blue;
   display: flex;
   align-items: center;
-  
-  
-
- 
- 
 }
 
 
@@ -163,13 +155,8 @@ body{
   .togglenavbar .toggleactive{
     color: var(--bg-color);
   }
-  .togglenavbar a{
-    
-
-    
+  .togglenavbar a{    
     font-size: 2rem;
-   
-
   }
 
 
@@ -223,7 +210,7 @@ section{
 
  .fullstack{
   border-right: 2px var(--main-color) solid;
-  /* width: 100%; */
+  width: 100%;
   animation: type 2s infinite steps(1000);
   white-space: nowrap;
   overflow: hidden;
@@ -512,11 +499,15 @@ font-size: 1.6rem;
 margin: 2rem 0 3rem;
 
 }
+.aboutinfo{
+
+  font-weight: 400;
+ 
+
+}
 .readmorebtn {
 /* border: 2px red solid; */
 padding-left: 80px;
-
-
 }
 .btn-box .btns{
 
@@ -814,16 +805,23 @@ width :75%;
 
 }
 
+@media(max-width:485px){
+ 
+  .skillRow{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+}
 
 /* nljsldjikkkkkkkkkkk */
 
 
 #Projects {
+
  padding: 80px 0px;
-  /* border: 2px red solid; */
-  background-color: var(--second-color);
-
-
+ background-color: var(--second-color);
 
 }
 

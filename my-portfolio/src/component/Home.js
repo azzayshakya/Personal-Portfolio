@@ -165,16 +165,16 @@ const Home = () => {
             <span class="circle-spin"></span>
         </div>
             <div class="about-content">
-                <h3>FULL STACK WEB DEVELOPER  (MERN) </h3>
-                <p></p>
-                <p>Hello, I'm Ajay Kr Shakya, hailing from Buduan, Uttar Pradesh. <br />
+                <h3>FULL STACK WEB DEVELOPER  <span>(MERN)</span></h3>
+    
+                <p className="aboutinfo">I am a B.Tech student at BIT Meerut College specializing in full-stack development, particularly proficient in utilizing the MERN stack. <br />
 
 
-                I specialize as a Full-Stack Web developer and find joy in confronting fresh challenges while consistently enhancing my expertise. <br/>
+                With hands-on experience, I have developed impactful projects including a dynamic Cloud Kitchen website and an innovative Job Portal platform. <br/>
                     
-                My proficiency lies in Development, along with a grasp of programming languages like Html, Css, Javascript, and Java. <br />
+                With over a year of work experience in web development, including an internship at INTERNPE<br />
                     
-                I possess a fervor for working with these languages and hold a keen interest in delving into new ones as well.
+                I am dedicated to honing my skills and contributing meaningfully to the tech industry.
                     
                 </p>
                     
@@ -529,14 +529,14 @@ const Home = () => {
 
                     <div class="education-content">
                         <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2024</div>
+                            <div class="year"><i class='bx bxs-calendar'></i>2023</div>
                             <h3>DSA (java)</h3>
                             <p>I have solved the many dsa questions in java.</p>
                         </div>
                     </div>
                     <div class="education-content">
                         <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2024</div>
+                            <div class="year"><i class='bx bxs-calendar'></i>2022</div>
                             <h3>JAVA - C++ </h3>
                             <p>Currently , I have the knowledge of java and c++ </p>
                         </div>
