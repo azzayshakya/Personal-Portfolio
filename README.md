@@ -1,6 +1,8 @@
-# Personal Portfolio
-• Developed a personal , responsive portfolio using React.js , Express.js , Node.js and MongoDB.
+# React + Vite
 
-• Implemented various sections including education ,projects and skills.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-• Included a contact form for user inquiries and communication.
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
